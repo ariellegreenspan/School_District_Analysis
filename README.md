@@ -8,16 +8,30 @@
 ##Results: Using bulleted lists and images of DataFrames as support, address the following questions.
   Replacement of the ninth-grade schools led to the following responses in the dataset:
     * Despite other changes in the data, Thomas High School's performance compared to other schools stayed the same in regards to ranking. It remained the second-best          performing school in the district. See chart below:
-    ----chart
+     
+  ![Top Five Schools](Resources/Top_Five_Schools.png)
+
+     
     * The district summary was affected, seeing a decrease in percent overall passing from 65.2 to 64.9. Also, the percent passing reading decreased by 0.1%. The percent         passing math decreased from 74.98 to 74.8. See chart below for changes in DataFrame after the 9th grade score removal for Thomas High School.
-      -----chart
+   
+   ![District Summary](Resources/District_Summary.png)
+    
+    
     * When examining the school summary, the average math score for Thomas High School had decreased from 83.42 to 83.35. The average reading score for Thomas High School         had increased from 83.73 to 83.896. The percent passing math decreased from 93.27 to 66.91. The percent passing reading decreased from 97.31 to 69.66 The percent           overall passing for Thomas High school went from 90.95 to 60.08. See chart below for changes in DataFrame after the 9th grade score removal for Thomas High School.
-    ----chart
+   
+   ![School Summary](Resources/School_Summary.png)
+   
+   
+   
     * Math and reading scores by grade only changed for Thomas High school in the ninth grade column since the grades were nto present in the analysis. All other gardes         remained the same in regards to scores.
-    * When examining, scores by school spending, the average math score for Thomas High School decreased from 83.41 to 83.35. The average reading score for Thomas High           school increased from 83.85 to 83.896. The percent passing math decreased from 93.27 to 93.19. The percent passing math decreased from 97.31 to 97.02. The overall         passing percentage for Thomas High School decreased from 90.95 to 90.63. See chart below for updates
-    --------chart
+    * When examining, scores by school spending, the average math score for Thomas High School decreased from 83.41 to 83.35. The average reading score for Thomas High           school increased from 83.85 to 83.896. The percent passing math decreased from 93.27 to 93.19. The percent passing math decreased from 97.31 to 97.02. The overall         passing percentage for Thomas High School decreased from 90.95 to 90.63. See chart below for updates.
+    
+   ![School Spending Analysis](Resources/Scores_By_School_spending.png)
+
     * When examining the analysis of scores by school size, the average math score for schools of medium size, of which Thomas High school is a member, decreased from           83.42 to 83.35. The average reading scores decreased from 83.85 to 83.896. The percentage passing math decreased from 93.27 to 93.19. The percentage passing reading       decreased from 97.31 to 97.02. The overall passing percentage decreased from 90.95 to 90.63. See chart below for changes in data.
-    ------chart
+    
+  ![School Size Analysis](Resources/Scores_By_Size.png)
+
     * The data for scores by school type were unaffected by the removal of the ninth grade scores.
 ## Summary: 
   In summary, removing the ninth grade scores from Thomas High School led to a decrease in average math score, an increase in average reading score, a decrease in passing math percentage, a decrease in passing reading percentage, and a decrease in overall passing. 
